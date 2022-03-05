@@ -1,0 +1,13 @@
+{
+  "name": "fast-jest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yyong008/fast-jest.git",
+  "author": "magnesium- <757057999@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "node ./server.js",
+    "jest": "jest --watchAll",
+    "test": "concurrently \"yarn server \"yarn jest"
+  }
+}
