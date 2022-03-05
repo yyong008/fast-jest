@@ -20,3 +20,7 @@ Get started quickly with jest
 
 - async/await
 
+## Todos
+
+- [] Object config Snapshot Testing
+- [] React Component Snapshot Testing
