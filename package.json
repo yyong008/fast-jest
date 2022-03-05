@@ -18,9 +18,11 @@
     "axios": "^0.26.0",
     "babel-jest": "^27.5.1",
     "concurrently": "^7.0.0",
-    "epxress": "^0.0.1-security"
+    "epxress": "^0.0.1-security",
+    "react-test-renderer": "^17.0.2"
   },
   "dependencies": {
-    "jest": "^27.5.1"
+    "jest": "^27.5.1",
+    "react": "^17.0.2"
   }
 }

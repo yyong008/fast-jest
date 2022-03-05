@@ -9,7 +9,7 @@ Get started quickly with jest
 - express
 - axios
 - concurrently
-
+- react-test-renderer (react toMatchSnapshot)
 ## scripts
 
 - server: start node express and use default port is 3000.

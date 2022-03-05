@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot Test config Object 1`] = `
+Object {
+  "port": 8000,
+}
+`;
+
+exports[`use react-test-renderer Component test 1`] = `
+<div>
+  About: Component
+</div>
+`;
+
+exports[`use react-test-renderer Component test 2`] = `
+<div>
+   About: 
+  react
+</div>
+`;
