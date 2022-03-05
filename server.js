@@ -9,5 +9,5 @@ app.use("/", (req, res) => {
 })
 
 app.listen(3000, () => {
-	console.log("服务在： http://localhost:3000")
+	console.log("server listen on： http://localhost:3000")
 })

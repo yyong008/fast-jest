@@ -10,6 +10,13 @@ Get started quickly with jest
 - axios
 - concurrently
 
+## scripts
+
+- server: start node express and use default port is 3000.
+- jest: watch All test file.
+- test: server and jest command.
+
 ## 支持语言特性
 
 - async/await
+
