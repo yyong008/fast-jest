@@ -24,3 +24,4 @@ Get started quickly with jest
 
 - [] Object config Snapshot Testing
 - [] React Component Snapshot Testing
+- [] Jest Global Api
