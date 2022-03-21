@@ -1,5 +1,3 @@
-const { test } = require("mocha");
-
 test("测试： test RegExp 对象", () => {
   const regexp = new RegExp("foo", "g");
   expect(Object.prototype.toString.call(regexp)).toBe("[object RegExp]");
