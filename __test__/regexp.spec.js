@@ -1,3 +1,19 @@
+test("测试", () => {
+  //
+  let regexp = new RegExp("abc", "gi");
+  expect(regexp).toMatchInlineSnapshot(`/abc/gi`);
+  expect(regexp.dotAll).toMatchInlineSnapshot(`false`);
+  expect(regexp.exec).toMatchInlineSnapshot(`[Function]`);
+  expect(regexp.flags).toMatchInlineSnapshot(`"gi"`);
+  expect(regexp.global).toMatchInlineSnapshot(`true`);
+  expect(regexp.ignoreCase).toMatchInlineSnapshot(`true`);
+  expect(regexp.lastIndex).toMatchInlineSnapshot(`0`);
+  expect(regexp.multiline).toMatchInlineSnapshot(`false`);
+  expect(regexp.source).toMatchInlineSnapshot(`"abc"`);
+  expect(regexp.sticky).toMatchInlineSnapshot(`false`);
+  expect(regexp.test).toMatchInlineSnapshot(`[Function]`);
+  expect(regexp.unicode).toMatchInlineSnapshot(`false`);
+});
 test("测试： test RegExp 对象", () => {
   const regexp = new RegExp("foo", "g");
   expect(Object.prototype.toString.call(regexp)).toBe("[object RegExp]");
